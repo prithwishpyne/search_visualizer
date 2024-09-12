@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffcdb2;
+}
+
+.checked {
+  background-color: #d55d92;
+}
+
+.found {
+  background-color: burlywood;
+}
+
+.notFound {
+  background-color: aquamarine;
+}
+
+.navbar {
+  /* width: 40px; */
+  /* margin: 0; */
+  padding: 0 2rem;
+  height: 6rem;
+  background-color: #708090;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.button {
+  background-color: #ffa94d;
+  color: #343a40;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+.button:hover:enabled {
+  background-color: #2e8b57;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.divider {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.boxes {
+  display: flex;
+}
+
+.boxes div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+  /* background-color: #fff; */
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.boxes div:first-child {
+  border-left: 2px solid black;
+}
+
+.heading {
+  font-size: 62px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.message {
+  font-size: 32px;
+}
